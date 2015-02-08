@@ -1,0 +1,113 @@
+.headline {
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.event-cover {
+  text-align: center;
+  margin-bottom: 20px;
+
+  img {
+    max-width: 100%;
+  }
+}
+
+.sidebar {
+  margin-bottom: 20px;
+  padding: 16px 18px;
+  border-radius: 4px;
+  background-color: mix($palette-clouds, #ffffff);
+
+  h3:first-child {
+    margin-top: 4px;
+  }
+}
+
+.officials {
+  li {
+    &:not(:last-child) {
+      margin-bottom: 8px;
+    }
+  }
+
+  a {
+    img {
+      margin-right: 6px;
+    }
+
+    &:hover {
+      text-decoration: none;
+    }
+
+    .position {
+      color: $palette-silver;
+    }
+  }
+}
+
+.commitments h3, .status-breakdown {
+  .fa {
+    margin-right: 4px;
+  }
+
+  .completed {
+    color: $color-completed;
+
+    &:before {
+      content: "\f058";
+    }
+  }
+
+  .failed {
+    color: $color-failed;
+
+    &:before {
+      content: "\f057";
+    }
+  }
+
+  .unknown {
+    color: $color-unknown;
+
+    &:before {
+      content: "\f059";
+    }
+  }
+
+  .pending {
+    color: $color-pending;
+
+    &:before {
+      content: "\f017";
+    }
+  }
+}
+
+.commitment {
+  &:not(:last-child) {
+    margin-bottom: 36px;
+  }
+}
+
+.status-chart {
+  text-align: center;
+
+  path {
+    &.completed {
+      fill: $color-completed;
+      content: "\f058";
+    }
+
+    &.failed {
+      fill: $color-failed;
+    }
+
+    &.unknown {
+      fill: $color-unknown;
+    }
+
+    &.pending {
+      fill: $color-pending;
+    }
+  }
+}

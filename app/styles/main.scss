@@ -1,0 +1,51 @@
+@import "theme";
+@import "official";
+@import "event";
+
+// Bootstrap fixes
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  font-family: 'Lato', sans-serif;
+}
+
+a {
+  color: $palette-peter-river;
+
+  &:hover, &:focus {
+    color: $palette-belize-hole;
+    text-decoration: none;
+  }
+}
+
+.navbar {
+  .navbar-brand {
+    font-family: 'Cardo', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+  }
+}
+
+.avatar {
+  border-radius: 50%;
+  border: 2px solid $palette-clouds;
+
+  &.avatar-xsmall {
+    width: 36px;
+    height: 36px;
+  }
+
+  &.avatar-small {
+    width: 48px;
+    height: 48px;
+  }
+
+  &.avatar-large {
+    width: 92px;
+    height: 92px;
+  }
+}
+
+footer {
+  margin-top: 20px;
+  background-color: $palette-clouds;
+}
