@@ -1,0 +1,118 @@
+$party-border-radius: 4px;
+
+.official-header {
+  margin-bottom: 20px;
+
+  .media-left {
+    img {
+      margin-right: 20px;
+      border-width: 3px;
+    }
+  }
+}
+
+.social-list {
+  li {
+    display: inline-block;
+    margin-top: 6px;
+
+    &:not(:last-child) {
+      margin-right: 16px;
+    }
+
+    .fa {
+      font-size: 125%;
+    }
+  }
+}
+
+.party-list {
+  list-style: none;
+  text-align: center;
+  padding: 12px 0;
+  margin-bottom: 0;
+  border: 1px solid $palette-clouds;
+  border-bottom: 0;
+  border-radius: $party-border-radius $party-border-radius 0 0;
+
+  .party {
+    display: inline-block;
+
+    &:not(:last-child) {
+      margin-right: 24px;
+    }
+
+    .party-bullet {
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      margin-right: 4px;
+    }
+
+    .party-name {
+      font-weight: bold;
+    }
+
+    // Parties!
+    // TODO(thewarpaint): Generate these with fancy SASS logic!
+    &.party-pri {
+      .party-bullet {
+        background-color: $color-party-pri;
+      }
+    }
+
+    &.party-prd {
+      .party-bullet {
+        background-color: $color-party-prd;
+      }
+    }
+
+    &.party-morena {
+      .party-bullet {
+        background-color: $color-party-morena;
+      }
+    }
+
+    .duration {
+      color: $palette-silver;
+    }
+  }
+}
+
+.party-graph {
+  width: 100%;
+  height: auto;
+  white-space: nowrap;
+
+  .party {
+    display: inline-block;
+    height: 12px;
+
+    &:first-child {
+      border-bottom-left-radius: $party-border-radius;
+    }
+
+    &:last-child {
+      border-bottom-right-radius: $party-border-radius;
+    }
+
+    // Parties!
+    // TODO(thewarpaint): Generate these with fancy SASS logic!
+    &.party-none {
+      background-color: $color-party-none;
+    }
+
+    &.party-pri {
+      background-color: $color-party-pri;
+    }
+
+    &.party-prd {
+      background-color: $color-party-prd;
+    }
+
+    &.party-morena {
+      background-color: $color-party-morena;
+    }
+  }
+}

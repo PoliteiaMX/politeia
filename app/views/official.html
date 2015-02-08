@@ -1,0 +1,47 @@
+<div>
+  <div class="media official-header">
+    <div class="media-left">
+      <a><img ng-src="{{ official.avatarUrl }}" class="media-object avatar avatar-large"></a>
+    </div>
+    <div class="media-body">
+      <h1 class="media-heading">{{ official.name }}</h1>
+      <ul class="social-list list-unstyled">
+        <li>
+          <a ng-href="http://twitter.com/{{ official.social.twitter.username }}"
+          ng-if="official.social.twitter"><i class="fa fa-twitter"></i>
+          @{{ official.social.twitter.username }}</a>
+        </li>
+        <li>
+          <a ng-href="{{ official.social.facebook.url }}" ng-if="official.social.facebook">
+            <i class="fa fa-facebook-official"></i> {{ official.social.facebook.username }}</a>
+        </li>
+        <li>
+          <a ng-href="{{ official.social.website.url }}" ng-if="official.social.website">
+            <i class="fa fa-globe"></i> {{ official.social.website.niceUrl }}</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="party-log">
+    <ul class="party-list">
+      <li class="party party-{{ party.id }}" ng-repeat="party in official.partyLog">
+        <span class="party-bullet" ng-hide="party.id == 'none'"></span>
+        <span class="party-name">{{ party.acronym }}</span>
+        <span class="duration" ng-hide="party.id == 'none'">{{ party.duration }}</span>
+      </li>
+    </ul>
+
+    <div class="party-graph">
+      <span class="party party-{{ party.id }}" ng-repeat="party in official.partyLog"
+        style="width: {{ party.durationPercentage }}%">&nbsp;</span>
+    </div>
+  </div>
+
+  <h2>Cargos</h2>
+
+  <div ng-repeat="position in official.positions">
+    <h3>{{ position.title }}</h3>
+    <span>{{ position.interval }}</span>
+  </div>
+</div>

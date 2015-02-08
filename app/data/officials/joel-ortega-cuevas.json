@@ -1,0 +1,31 @@
+{
+  "name": "Joel Ortega Cuevas",
+  "avatarUrl": "http://www.metro.df.gob.mx/imagenes/organismo/directores/dgortega.jpg",
+  "social": {
+    "twitter": {
+      "username": "JoelOrtegaCueva"
+    }
+  },
+  "partyLog": [
+    {
+      "id": "none",
+      "acronym": "(desconocido)",
+      "duration": null,
+      "durationPercentage": 100
+    }
+  ],
+  "positions": [
+    {
+      "title": "Director General del Sistema de Transporte Colectivo",
+      "interval": "2012 (actual)"
+    },
+    {
+      "title": "Secretario de Seguridad Pública de Distrito Federal",
+      "interval": "2004-2008"
+    },
+    {
+      "title": "Jefe delegacional de Gustavo A. Madero",
+      "interval": "2000-2003"
+    }
+  ]
+}

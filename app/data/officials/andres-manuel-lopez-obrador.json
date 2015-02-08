@@ -1,0 +1,43 @@
+{
+  "name": "Andrés Manuel López Obrador",
+  "avatarUrl": "https://pbs.twimg.com/profile_images/554820947778097152/M919xiSD.jpeg",
+  "social": {
+    "twitter": {
+      "username": "lopezobrador_"
+    },
+    "facebook": {
+      "url": "https://www.facebook.com/lopezobrador.org.mx",
+      "username": "lopezobrador.org.mx"
+    },
+    "website": {
+      "url": "http://lopezobrador.org.mx",
+      "niceUrl": "lopezobrador.org.mx"
+    }
+  },
+  "partyLog": [
+    {
+      "id": "pri",
+      "acronym": "PRI",
+      "duration": "12 años",
+      "durationPercentage": 33.3333
+    },
+    {
+      "id": "prd",
+      "acronym": "PRD",
+      "duration": "23 años",
+      "durationPercentage": 63.8888
+    },
+    {
+      "id": "morena",
+      "acronym": "Morena",
+      "duration": "1 año",
+      "durationPercentage": 2.7777
+    }
+  ],
+  "positions": [
+    {
+      "title": "Jefe de Gobierno de Distrito Federal",
+      "interval": "2000-2005"
+    }
+  ]
+}
