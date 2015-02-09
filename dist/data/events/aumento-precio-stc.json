@@ -1,0 +1,116 @@
+{
+  "title": "Aumento al costo del boleto del STC",
+  "summary": "En diciembre de 2013 el precio del boleto del STC Metro aumentó de $3 a $5, un incremento del 66%.",
+  "photoUrl": "http://1.bp.blogspot.com/-VhVG7hsmU4E/T4pdshVW9XI/AAAAAAAAAEQ/1iQtVJvuzYQ/s400/metro%2Bactual.jpg",
+  "officials": [
+    {
+      "id": "miguel-angel-mancera",
+      "avatarUrl": "https://pbs.twimg.com/profile_images/378800000676855915/de2b46c0838832cf8da7cff15db13a7d.jpeg",
+      "name": "Miguel Ángel Mancera",
+      "position": "Jefe de Gobierno de Distrito Federal"
+    },
+    {
+      "id": "joel-ortega-cuevas",
+      "avatarUrl": "http://www.metro.df.gob.mx/imagenes/organismo/directores/dgortega.jpg",
+      "name": "Joel Ortega Cuevas",
+      "position": "Director General del Sistema de Transporte Colectivo"
+
+    }
+  ],
+  "commitments": [
+    {
+      "title": "Compra de 45 trenes nuevos para la línea 1",
+      "deadline": null,
+      "description": "La adquisición de los 45 trenes nuevos para línea 1 forma parte de un proyecto integral de modernización y fiabilización del Sistema de Transporte Colectivo, que permitirá hacer frente a la demanda creciente de usuarios, motivado la próxima línea de tren para pasajeros México Toluca, y las ampliaciones de Línea 12 de Mixcoac a Observatorio y de la línea A de la Paz a Chalco.",
+      "status": "unknown"
+    },
+    {
+      "title": "Compra de 12 trenes nuevos para la línea 12",
+      "deadline": null,
+      "description": "Comprende la fabricación y suministro de 12 trenes, cada uno de 7 carros de rodadura férrea. Estos trenes contarán con: bogies bimotores de suspensión neumática; tracción asíncrona; sistema de generación y distribución de energía eléctrica; sistema de generación y distribución de aire comprimido, puertas eléctricas, pasillos de inter-circulación de carros, informática embarcada, Sistema de Pilotaje Automático tipo CBTC, telefonía de trenes y sistema de circuito cerrado (CCTV). Incluye la documentación técnica y capacitación del personal técnico y operativo del STC.",
+      "status": "unknown"
+    },
+    {
+      "title": "Renovación integral de la línea 1 y renovación de las estaciones",
+      "deadline": null,
+      "description": "El proyecto contempla cuatro etapas: diagnóstico completo de los sistemas existentes; diagnóstico completo de las edificaciones y proyecto de remodelación de las estaciones; proyecto ejecutivo de modernización de los sistemas; y migración y modernización de las estaciones. Dentro de los alcances del proyecto se tiene considerado realizar los estudios operativos para la modificación de la estación terminal Observatorio para permitir una operación más eficiente, reduciendo el intervalo del despacho de los trenes y en la dosificación de los usuarios en forma segura.",
+      "status": "unknown"
+    },
+    {
+      "title": "Mantenimiento mayor a los 45 trenes de la línea 2",
+      "deadline": "Diciembre 2016",
+      "description": "El servicio de mantenimiento mayor cubrirá el lote de 45 trenes en un periodo de tres años. Las actividades de Mantenimiento Mayor que se realizarán consistirán en elaboración de las etapas de planeación; estudios de Ingeniería; suministros; pruebas de recepción; intervención a los equipos; instalación sobre el tren; pruebas estáticas y dinámicas; capacitación en el mantenimiento de los equipos; suministros e instalación de los repuestos y equipos faltantes en los trenes detenidos por falta de refacciones; transferencia sin costo adicional al STC de la propiedad y las herramientas especiales en buen estado, equipos de diagnóstico y de extracción de datos, los bancos de prueba para el mantenimiento de los equipos mecánicos, eléctricos y electrónicos que se hayan utilizado durante la prestación del servicio.",
+      "status": "pending"
+    },
+    {
+      "title": "Reparación de 105 trenes fuera de servicio",
+      "deadline": null,
+      "description": "Consiste en la rehabilitación, en un plazo de dos años, de los 105 trenes de las Líneas 1, 2, 3, 4, 5, 6, 7, 8, 9, A y B del STC que están fuera de servicio dispuestos para recibir atención en los talleres y lograr su reincorporación a la operación. Previamente a la reincorporación de los trenes a la operación se realizarán las pruebas necesarias para garantizar la completa seguridad requerida para la prestación del servicio de transportación.",
+      "status": "unknown"
+    },
+    {
+      "title": "Mejora de tiempos de recorrido de líneas 4, 5, 6 y B mediante el cambio del sistema de tracción-frenado",
+      "deadline": null,
+      "description": "El proyecto contempla la sustitución del actual sistema de tracción frenado JH por uno a base de electrónica de estado sólido a un lote de 85 trenes, específicamente 49 modelo MP-68 y 36 del modelo NM-73, que circulan en las Líneas 4, 5, 6 y B. El sistema de tracción-frenado electrónico de estado sólido emplea el frenado regenerativo para detener el tren, empleando los motores de tracción como generadores, es decir, cambian la energía mecánica en energía eléctrica, con lo que se genera un considerable ahorro de ésta última en la operación de los trenes equipados con estos sistemas.",
+      "status": "unknown"
+    },
+    {
+      "title": "Incorporación de 1,200 policías adicionales",
+      "deadline": null,
+      "description": "El proyecto consiste en el incremento del personal policiaco a efecto de brindar el marco de seguridad y vigilancia que la ciudadanía exige, realizando operativos en el interior de las estaciones y carros de los trenes, realizar la maniobras de control y dosificación, separación y desalojos de trenes, y combatir la incidencia delictiva, llevar a cabo el traslado de los diferentes grupos de aficionados deportivos, políticos, juveniles, apoyos médicos, así como la protección de usuarios, trabajadores y bienes del mismo.",
+      "status": "unknown",
+      "progress": "En Septiembre de 2014, Joel Ortega declaró que 1,200 policías se incorporaron al STC.",
+      "sources": ["2"]
+    },
+    {
+      "title": "Renivelación de vías en línea A",
+      "deadline": null,
+      "description": "Se realizará la renovación de las 10 estaciones, incluyendo sus escaleras y pasarelas de acceso, se crearán condiciones de accesibilidad en 6 estaciones y se reconstruirán o, en su caso, se rehabilitarán los 59 puntos críticos localizados a lo largo de la línea.",
+      "status": "unknown"
+    },
+    {
+      "title": "Reincorporación de 7 trenes férreos a la línea A",
+      "deadline": null,
+      "description": "El servicio de puesta a punto y mantenimiento mayor para un lote de 7 trenes de 6 carros del modelo FM-95A comprende el suministro de componentes faltantes y reparación de equipos para la puesta a punto de los 7 trenes fuera de servicio, el mantenimiento mayor de dicho lote y el empleo de componentes originales, materiales, herramientas y bancos de prueba adecuados. El prestador del servicio que lleve a cabo dicho proyecto deberá contar con la certificación ISO 9000 vigente, relativa a actividades de mantenimiento de equipos ferroviarios, fiabilizaciones, rehabilitaciones, conversiones y a la fabricación de trenes.",
+      "status": "unknown"
+    },
+    {
+      "title": "Sustitución de 62 escaleras electromecánicas",
+      "deadline": null,
+      "description": "Se sustituirán 62 escaleras electromecánicas con más de 44 años de operación en las líneas 1, 2, 3 y 7 por escaleras modernas, con tecnología de punta y sistemas más eficientes mecánicos, eléctricos y de ahorro de energía. La adquisición y sustitución parcial de equipos obsoletos permitirán recuperar de forma parcial las variables de calidad que el STC requiere para brindar el servicio de transporte para el que fue creado, se pretende dar especial atención a las condiciones de accesibilidad, seguridad, tiempo de traslado de los pasajeros así como de confort.",
+      "status": "unknown"
+    },
+    {
+      "title": "Adquisición de 3,705 ventiladores y 258 motocompresores",
+      "deadline": null,
+      "description": "El alcance de este proyecto abarca la adquisición, instalación y pruebas de 3,705 motoventiladores completos para el sistema de ventilación de 57 trenes de las Líneas 3, 7, 8 y 9, así como la adquisición de 258 grupos de motocompresores con bomba rotativa para las Líneas 3, 6 y 7. El sistema de ventilación de pasajeros instalado en los carros y cabina del conductor suministra aire fresco a fin de mantener una temperatura efectiva y circulación de aire limpio dentro de la zona de confort.",
+      "status": "unknown"
+    },
+    {
+      "title": "Nuevo sistema de radiocomunicación para trenes, estaciones y personal operativo",
+      "deadline": "Septiembre 2015",
+      "description": "Este equipamiento permitirá al STC contar con cobertura de Radiocomunicación para todos los recorridos de los trenes, talleres de mantenimiento, pasillos y andenes de las estaciones. El alcance del proyecto contempla la cantidad necesaria de equipos, así como la ingeniería de detalle, el diseño, el suministro, la instalación, las pruebas, el mantenimiento, el servicio, la puesta en operación, la capacitación y la memoria técnica.",
+      "status": "pending"
+    },
+    {
+      "title": "Modernización del sistema de torniquetes y generalización del uso de la tarjeta recargable",
+      "deadline": null,
+      "description": "La solución consiste en la implementación del sistema flexible de recaudo, incluída la cámara automática de compensación, integración de la tarjeta de peaje que cumpla con las normas internacionales de calidad y seguridad, migración al estándar Full Calypso, sustitución del boleto magnético, viabilidad de implementar las tarjetas de cartón sin contacto a bajo costo, reconocimiento de todas las tarjetas existentes, interoperabilidad con los otros medios de transporte, manejo de un esquema tarifario flexible, integración de expendedoras automática y accesorios portátiles para atención a quejas en sitio, modernización de las arquitecturas de cómputo, comunicaciones, peaje (torniquetes de entrada/salida), y sistema central de recaudo, incluyendo sistema antifraude.",
+      "status": "unknown"
+    }
+  ],
+  "sources": {
+    "1": {
+      "title": "11 compromisos Metro",
+      "source": "Scribd",
+      "url": "http://www.scribd.com/doc/252356717/11-compromisos-Metro",
+      "publicationDate": "2015-01-12 00:00"
+    },
+    "2": {
+      "title": "Presentan avances por aumento de tarifa en el Metro",
+      "source": "Milenio.com",
+      "url": "http://www.milenio.com/df/metro_avances-aumeto_del_boleto_linea_12-linea_12_0_377962382.html",
+      "publicationDate": "2014-09-23 13:46"
+    }
+  }
+}

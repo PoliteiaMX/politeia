@@ -1,0 +1,31 @@
+{
+  "name": "Miguel Ángel Mancera",
+  "avatarUrl": "https://pbs.twimg.com/profile_images/378800000676855915/de2b46c0838832cf8da7cff15db13a7d.jpeg",
+  "social": {
+    "twitter": {
+      "username": "ManceraMiguelMX"
+    },
+    "facebook": {
+      "url": "https://www.facebook.com/MiguelAngelMancera",
+      "username": "MiguelAngelMancera"
+    }
+  },
+  "partyLog": [
+    {
+      "id": "none",
+      "acronym": "(sin partido)",
+      "duration": null,
+      "durationPercentage": 100
+    }
+  ],
+  "positions": [
+    {
+      "title": "Jefe de Gobierno de Distrito Federal",
+      "interval": "2012 (actual)"
+    },
+    {
+      "title": "Procurador General de Justicia de Distrito Federal",
+      "interval": "2008"
+    }
+  ]
+}
