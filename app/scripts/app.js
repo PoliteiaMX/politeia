@@ -11,7 +11,8 @@
 angular
   .module('politicsApp', [
     'ngAnimate',
-    'ngRoute'
+    'ngRoute',
+    'angularUtils.directives.dirDisqus'
   ])
   .config(function ($routeProvider) {
     $routeProvider
