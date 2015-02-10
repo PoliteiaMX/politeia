@@ -8,7 +8,15 @@
 * Controller of the politicsApp
 */
 angular.module('politicsApp')
-.controller('EventCtrl', function ($rootScope, $scope, $routeParams, $http) {
+.controller('EventCtrl', function ($rootScope, $scope, $routeParams, $http, $location) {
+  $scope.disqus = {
+    shortname: 'politeiamx',
+    identifier: null,
+    title: null,
+    url: null,
+    ready: false
+  };
+
   $http.get('data/events/' + $routeParams.eventId + '.json')
     .then(function (response) {
       var statusCount,
@@ -38,5 +46,11 @@ angular.module('politicsApp')
         status.count = statusCount[status.id] ? statusCount[status.id] : 0;
         return status;
       });
+
+      // TODO(thewarpaint): Refactor this into a service
+      $scope.disqus.identifier = $scope.event.id;
+      $scope.disqus.title = $scope.event.title;
+      $scope.disqus.url = $location.absUrl();
+      $scope.disqus.ready = true;
     });
 });
