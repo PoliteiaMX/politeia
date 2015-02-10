@@ -12,7 +12,9 @@ angular
   .module('politicsApp', [
     'ngAnimate',
     'ngRoute',
-    'angularUtils.directives.dirDisqus'
+    'angularUtils.directives.dirDisqus',
+    'angulartics',
+    'angulartics.google.analytics'
   ])
   .config(function ($routeProvider) {
     $routeProvider
