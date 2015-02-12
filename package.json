@@ -1,6 +1,7 @@
 {
   "name": "politeia",
   "version": "0.0.1",
+  "repository": "https://github.com/politeiamx/politeia",
   "dependencies": {},
   "devDependencies": {
     "glob": "^4.3.5",
