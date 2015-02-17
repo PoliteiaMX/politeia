@@ -26,6 +26,10 @@ angular
         templateUrl: 'views/event.html',
         controller: 'EventCtrl'
       })
+      .when('/officials', {
+        templateUrl: 'views/official-index.html',
+        controller: 'OfficialIndexCtrl'
+      })
       .when('/officials/:officialId', {
         templateUrl: 'views/official.html',
         controller: 'OfficialCtrl'
