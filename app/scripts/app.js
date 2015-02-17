@@ -2,14 +2,14 @@
 
 /**
  * @ngdoc overview
- * @name politicsApp
+ * @name politeiaApp
  * @description
- * # politicsApp
+ * # politeiaApp
  *
  * Main module of the application.
  */
 angular
-  .module('politicsApp', [
+  .module('politeiaApp', [
     'ngAnimate',
     'ngRoute',
     'angularUtils.directives.dirDisqus',

@@ -2,12 +2,12 @@
 
 /**
  * @ngdoc function
- * @name politicsApp.controller:PersonCtrl
+ * @name politeiaApp.controller:PersonCtrl
  * @description
  * # PersonCtrl
- * Controller of the politicsApp
+ * Controller of the politeiaApp
  */
-angular.module('politicsApp')
+angular.module('politeiaApp')
   .controller('OfficialCtrl', function ($rootScope, $scope, $routeParams, $http) {
     $http.get('data/officials/' + $routeParams.officialId + '.json')
       .then(function (response) {

@@ -2,11 +2,11 @@
 
 /**
  * @ngdoc directive
- * @name politicsApp.directive:piechart
+ * @name politeiaApp.directive:piechart
  * @description
  * # piechart
  */
-angular.module('politicsApp')
+angular.module('politeiaApp')
   .directive('piechart', function () {
     return {
       template: '<div></div>',

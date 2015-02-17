@@ -2,12 +2,12 @@
 
 /**
 * @ngdoc function
-* @name politicsApp.controller:EventCtrl
+* @name politeiaApp.controller:EventCtrl
 * @description
 * # EventCtrl
-* Controller of the politicsApp
+* Controller of the politeiaApp
 */
-angular.module('politicsApp')
+angular.module('politeiaApp')
 .controller('EventCtrl', function ($rootScope, $scope, $routeParams, $http, $location) {
   $scope.disqus = {
     shortname: 'politeiamx',

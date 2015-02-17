@@ -2,13 +2,13 @@
 
 /**
  * @ngdoc filter
- * @name politicsApp.filter:nullFilter
+ * @name politeiaApp.filter:nullFilter
  * @function
  * @description
  * # nullFilter
- * Filter in the politicsApp.
+ * Filter in the politeiaApp.
  */
-angular.module('politicsApp')
+angular.module('politeiaApp')
   .filter('nullFilter', function () {
     return function (input) {
       return input === null ? '?' : input;

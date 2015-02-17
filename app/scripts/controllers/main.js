@@ -2,11 +2,11 @@
 
 /**
  * @ngdoc function
- * @name politicsApp.controller:MainCtrl
+ * @name politeiaApp.controller:MainCtrl
  * @description
  * # MainCtrl
- * Controller of the politicsApp
+ * Controller of the politeiaApp
  */
-angular.module('politicsApp')
+angular.module('politeiaApp')
   .controller('MainCtrl', function ($rootScope, $scope) {
   });
