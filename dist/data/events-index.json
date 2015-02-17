@@ -1,0 +1,25 @@
+[
+  {
+    "id": "aumento-precio-stc",
+    "title": "Aumento al costo del boleto del STC",
+    "photoUrl": "http://1.bp.blogspot.com/-VhVG7hsmU4E/T4pdshVW9XI/AAAAAAAAAEQ/1iQtVJvuzYQ/s400/metro%2Bactual.jpg",
+    "statusBreakdown": [
+      {
+        "id": "completed",
+        "count": 0
+      },
+      {
+        "id": "failed",
+        "count": 0
+      },
+      {
+        "id": "unknown",
+        "count": 11
+      },
+      {
+        "id": "pending",
+        "count": 2
+      }
+    ]
+  }
+]

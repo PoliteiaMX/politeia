@@ -1,0 +1,20 @@
+[
+  {
+    "id": "andres-manuel-lopez-obrador",
+    "name": "Andrés Manuel López Obrador",
+    "description": "Presidente del Consejo Nacional del Movimiento Regeneración Nacional",
+    "avatarUrl": "http://i.imgur.com/48MXywT.png"
+  },
+  {
+    "id": "joel-ortega-cuevas",
+    "name": "Joel Ortega Cuevas",
+    "description": "Director General del Sistema de Transporte Colectivo",
+    "avatarUrl": "http://i.imgur.com/L6feLja.png"
+  },
+  {
+    "id": "miguel-angel-mancera",
+    "name": "Miguel Ángel Mancera",
+    "description": "Jefe de Gobierno de Distrito Federal",
+    "avatarUrl": "http://i.imgur.com/RJO7Hhm.png"
+  }
+]
