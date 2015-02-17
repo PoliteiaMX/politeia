@@ -113,3 +113,14 @@
     }
   }
 }
+
+.event-list {
+  .media-left a {
+    display: inline-block;
+    background-size: cover;
+    width: 160px;
+    height: 90px;
+    margin-right: 10px;
+    border: 2px solid $palette-clouds;
+  }
+}

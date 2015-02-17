@@ -49,3 +49,15 @@ footer {
   margin-top: 20px;
   background-color: $palette-clouds;
 }
+
+.event-list, .official-list {
+  margin-top: 20px;
+
+  li {
+    margin-bottom: 20px;
+
+    .media-left img {
+      margin-right: 10px;
+    }
+  }
+}

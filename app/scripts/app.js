@@ -18,6 +18,10 @@ angular
   ])
   .config(function ($routeProvider) {
     $routeProvider
+      .when('/events', {
+        templateUrl: 'views/event-index.html',
+        controller: 'EventIndexCtrl'
+      })
       .when('/events/:eventId', {
         templateUrl: 'views/event.html',
         controller: 'EventCtrl'
