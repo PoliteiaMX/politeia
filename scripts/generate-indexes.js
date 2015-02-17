@@ -35,6 +35,7 @@ var IndexGenerator = {
         return {
           id: official.id,
           name: official.name,
+          description: official.description,
           avatarUrl: official.avatarUrl
         };
       });
