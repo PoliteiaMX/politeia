@@ -34,6 +34,12 @@ angular
         templateUrl: 'views/event.html',
         controller: 'EventCtrl'
       })
+      .state('commitment-gallery', {
+        parent: 'appLayout',
+        url: '/events/:eventId/commitments/:commitmentIndex/gallery',
+        templateUrl: 'views/gallery.html',
+        controller: 'GalleryCtrl'
+      })
       .state('officials', {
         parent: 'appLayout',
         url: '/officials',

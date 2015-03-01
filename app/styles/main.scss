@@ -1,6 +1,7 @@
 @import "theme";
 @import "official";
 @import "event";
+@import "gallery";
 
 // Bootstrap fixes
 h1, h2, h3, h4, h5, h6 {
@@ -65,4 +66,12 @@ footer {
       margin-right: 10px;
     }
   }
+}
+
+.fa-thumbs-o-up, .fa-thumbs-up {
+  color: $color-thumbs-up;
+}
+
+.fa-thumbs-o-down, .fa-thumbs-down {
+  color: $color-thumbs-down;
 }
