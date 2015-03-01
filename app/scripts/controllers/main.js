@@ -8,5 +8,6 @@
  * Controller of the politeiaApp
  */
 angular.module('politeiaApp')
-  .controller('MainCtrl', function ($rootScope, $scope) {
+  .controller('MainCtrl', function ($scope, $state) {
+    $scope.$state = $state;
   });
