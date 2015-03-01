@@ -8,7 +8,7 @@
 * Controller of the politeiaApp
 */
 angular.module('politeiaApp')
-.controller('EventCtrl', function ($rootScope, $scope, $routeParams, $http, $location) {
+.controller('EventCtrl', function ($rootScope, $scope, $stateParams, $http, $location) {
   $scope.disqus = {
     shortname: 'politeiamx',
     identifier: null,
@@ -17,7 +17,7 @@ angular.module('politeiaApp')
     ready: false
   };
 
-  $http.get('data/events/' + $routeParams.eventId + '.json')
+  $http.get('data/events/' + $stateParams.eventId + '.json')
     .then(function (response) {
       var statusCount,
         statuses = [

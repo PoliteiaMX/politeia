@@ -8,8 +8,8 @@
  * Controller of the politeiaApp
  */
 angular.module('politeiaApp')
-  .controller('OfficialCtrl', function ($rootScope, $scope, $routeParams, $http) {
-    $http.get('data/officials/' + $routeParams.officialId + '.json')
+  .controller('OfficialCtrl', function ($rootScope, $scope, $stateParams, $http) {
+    $http.get('data/officials/' + $stateParams.officialId + '.json')
       .then(function (response) {
         $scope.official = response.data;
       });
