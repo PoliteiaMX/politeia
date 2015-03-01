@@ -11,30 +11,39 @@
 angular
   .module('politeiaApp', [
     'ngAnimate',
-    'ngRoute',
+    'ui.router',
     'angularUtils.directives.dirDisqus',
     'angulartics',
     'angulartics.google.analytics'
   ])
-  .config(function ($routeProvider) {
-    $routeProvider
-      .when('/events', {
+  .config(function ($stateProvider, $urlRouterProvider) {
+    $stateProvider
+      .state('appLayout', {
+        abstract: true,
+        templateUrl: 'views/app-layout.html'
+      })
+      .state('events', {
+        parent: 'appLayout',
+        url: '/events',
         templateUrl: 'views/event-index.html',
         controller: 'EventIndexCtrl'
       })
-      .when('/events/:eventId', {
+      .state('event', {
+        parent: 'appLayout',
+        url: '/events/:eventId',
         templateUrl: 'views/event.html',
         controller: 'EventCtrl'
       })
-      .when('/officials', {
+      .state('officials', {
+        parent: 'appLayout',
+        url: '/officials',
         templateUrl: 'views/official-index.html',
         controller: 'OfficialIndexCtrl'
       })
-      .when('/officials/:officialId', {
+      .state('official', {
+        parent: 'appLayout',
+        url: '/officials/:officialId',
         templateUrl: 'views/official.html',
         controller: 'OfficialCtrl'
-      })
-      .otherwise({
-        redirectTo: '/'
       });
   });

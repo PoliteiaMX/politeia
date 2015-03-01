@@ -28,40 +28,8 @@
       ga('create', 'UA-59577613-1', 'auto');
     </script>
   </head>
-  <body>
-    <nav class="navbar navbar-default">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#" title="πολιτεία">Politeia</a>
-        </div>
-
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav">
-            <li><a href="#/events">Sucesos</a></li>
-            <li><a href="#/officials">Funcionarios</a></li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-
-    <!--[if lt IE 8]>
-      <div class="container browsehappy">
-        You are using an <strong>outdated</strong> browser.
-        Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your existence.
-      </div>
-    <![endif]-->
-
-    <div class="container" ng-view></div>
-
-    <footer>
-      <div class="container"></div>
-    </footer>
+  <body id="{{ $state.current.name }}-state">
+    <div ui-view></div>
 
     <!-- build:js(.) scripts/oldieshim.js -->
     <!--[if lt IE 9]>
