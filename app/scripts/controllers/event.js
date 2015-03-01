@@ -37,7 +37,11 @@ angular.module('politeiaApp')
             'id': 'pending',
             'title': 'pendientes'
           }
-        ];
+        ],
+        galleryTypes = {
+          image: 'fa-picture-o',
+          video: 'fa-youtube-play'
+        };
 
       $scope.event = response.data;
 
@@ -45,6 +49,15 @@ angular.module('politeiaApp')
       $scope.event.statusBreakdown = _.map(statuses, function (status) {
         status.count = statusCount[status.id] ? statusCount[status.id] : 0;
         return status;
+      });
+
+      // TODO(thewarpaint): Refactor this into a filter?
+      _.each($scope.event.commitments, function (commitment) {
+        if(commitment.gallery) {
+          commitment.galleryCount = _.countBy(commitment.gallery, function (galleryItem) {
+            return galleryTypes[galleryItem.type];
+          });
+        }
       });
 
       // TODO(thewarpaint): Refactor this into a service

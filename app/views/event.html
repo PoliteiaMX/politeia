@@ -63,8 +63,15 @@
           <p>{{ commitment.progress }}</p>
         </div>
 
-        <!-- <h4>Evidencia</h4>
-        <p>Ninguna.</p> -->
+        <div ng-show="commitment.gallery">
+          <span class="gallery-link" style="background-image: url('{{ commitment.gallery[0].url }}')">
+            <a ng-href="#/events/{{ event.id }}/commitments/{{ $index+1 }}/gallery">
+              Galería
+              <span ng-repeat="(type, count) in commitment.galleryCount"><i class="fa {{ type }}"></i>
+                &times; {{ count }}</span>
+            </a>
+          </span>
+        </div>
       </div>
     </div>
 
