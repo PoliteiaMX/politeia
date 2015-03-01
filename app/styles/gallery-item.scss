@@ -1,0 +1,19 @@
+@import "theme";
+
+body#gallery-item-state {
+  h1 {
+    > .fa {
+      font-size: 75%;
+      margin-right: 6px;
+    }
+  }
+
+  .image-container {
+    margin: 24px 0;
+    text-align: center;
+
+    img {
+      max-width: 100%;
+    }
+  }
+}

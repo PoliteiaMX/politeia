@@ -40,6 +40,12 @@ angular
         templateUrl: 'views/gallery.html',
         controller: 'GalleryCtrl'
       })
+      .state('gallery-item', {
+        parent: 'appLayout',
+        url: '/events/:eventId/commitments/:commitmentIndex/gallery/:itemId',
+        templateUrl: 'views/gallery-item.html',
+        controller: 'GalleryItemCtrl'
+      })
       .state('officials', {
         parent: 'appLayout',
         url: '/officials',
