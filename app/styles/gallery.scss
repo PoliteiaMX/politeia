@@ -36,10 +36,10 @@ body#commitment-gallery-state {
     }
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 767px) {
     .gallery-list .gallery-item {
       a {
-        background-color: rgba(0, 0, 0, .6);
+        background-color: rgba(0, 0, 0, .4);
       }
     }
   }
@@ -53,7 +53,7 @@ body#commitment-gallery-state {
 
         &:hover {
           opacity: 1;
-          background-color: rgba(0, 0, 0, .6);
+          background-color: rgba(0, 0, 0, .4);
         }
       }
     }
