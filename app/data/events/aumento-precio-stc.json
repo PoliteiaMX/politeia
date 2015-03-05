@@ -2,7 +2,12 @@
   "id": "aumento-precio-stc",
   "title": "Aumento al costo del boleto del STC",
   "summary": "En diciembre de 2013 el precio del boleto del STC Metro aumentó de $3 a $5, un incremento del 66%.",
-  "photoUrl": "http://1.bp.blogspot.com/-VhVG7hsmU4E/T4pdshVW9XI/AAAAAAAAAEQ/1iQtVJvuzYQ/s400/metro%2Bactual.jpg",
+  "cover": {
+    "url": "http://i.imgur.com/HWWefLX.jpg",
+    "author": "Eneas De Troya",
+    "site": "Flickr",
+    "sourceUrl": "https://www.flickr.com/photos/eneas/4451588252"
+  },
   "officials": [
     {
       "id": "miguel-angel-mancera",
