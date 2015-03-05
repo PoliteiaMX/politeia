@@ -41,7 +41,10 @@
 
   <div class="col-md-8">
     <div class="event-cover">
-      <img ng-src="{{ event.photoUrl }}">
+      <a ng-href="{{ event.cover.sourceUrl }}" target="_blank">
+        <img ng-src="{{ event.cover.url }}">
+        <span>{{ event.cover.author }} @ {{ event.cover.site }}</span>
+      </a>
     </div>
 
     <p class="event-summary">{{ event.summary }}</p>
