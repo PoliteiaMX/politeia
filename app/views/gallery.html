@@ -13,7 +13,7 @@
   <div class="col-sm-6 col-md-4 col-lg-3 gallery-list" ng-repeat="galleryItem in galleryItems">
     <div class="gallery-item" style="background-image: url('{{ galleryItem.url }}')">
       <a ng-href="#/events/{{ event.id }}/commitments/{{ commitmentIndex }}/gallery/{{ galleryItem.id }}">
-        <span><i class="fa fa-fw fa-thumbs-o-{{ galleryItem.isPositive ? 'up' : 'down' }}"></i></span>
+        <span><i class="fa fa-fw fa-thumbs-{{ galleryItem.isPositive ? 'up' : 'down' }}"></i></span>
         <span><i class="fa fa-fw {{ galleryItem.type == 'image' ? 'fa-picture-o' : 'fa-youtube-play' }}"></i>
           </span>
       </a>
