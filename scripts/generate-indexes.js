@@ -30,14 +30,10 @@ var IndexGenerator = {
 
     glob('app/data/officials/*.json', function (error, files) {
       officials = files.map(function (filename) {
-        var official = JSON.parse(fs.readFileSync(filename, 'utf8'));
+        var official = JSON.parse(fs.readFileSync(filename, 'utf8')),
+            whitelist = ['id', 'name', 'description', 'avatarUrl'];
 
-        return {
-          id: official.id,
-          name: official.name,
-          description: official.description,
-          avatarUrl: official.avatarUrl
-        };
+        return _.pick(official, whitelist);
       });
 
       officials.sort(function (a, b) {
@@ -49,15 +45,12 @@ var IndexGenerator = {
 
     glob('app/data/events/*.json', function (error, files) {
       events = files.map(function (filename) {
-        var item,
-            event = JSON.parse(fs.readFileSync(filename, 'utf8')),
-            statusCount = _.countBy(event.commitments, 'status');
+        var event = JSON.parse(fs.readFileSync(filename, 'utf8')),
+            statusCount = _.countBy(event.commitments, 'status'),
+            whitelist = ['id', 'title'],
+            item = _.pick(event, whitelist);
 
-        item = {
-          id: event.id,
-          title: event.title,
-          photoUrl: event.photoUrl
-        };
+        item.coverUrl = event.cover.url;
 
         if(!_.isEmpty(statusCount)) {
           item.statusBreakdown = _.map(statuses, function (status) {
