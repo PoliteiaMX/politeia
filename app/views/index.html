@@ -1,0 +1,30 @@
+<div class="jumbotron">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-4 logo">
+        <div class="logo-wrapper">
+          <img src="images/pi.svg" alt="πολιτεία">
+        </div>
+      </div>
+      <div class="col-sm-8">
+        <h1>Politeia</h1>
+        <h2>Yo vigilo a los vigilantes</h2>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div ng-repeat="section in sections" style="background-image: url('{{ section.cover.url }}')"
+  id="{{ section.id }}-menu" class="menu-entry">
+  <div class="overlay">
+    <div class="container">
+      <a ng-href="#/{{ section.id }}" class="menu-link">
+        <h2>{{ section.title }}</h2>
+        <p>{{ section.description }}</p>
+      </a>
+
+      <a ng-href="{{ section.cover.sourceUrl }}" target="_blank" class="credits-link"
+        title="{{ section.cover.author }} @ {{ section.cover.site }}"><i class="fa fa-image"></i></a>
+    </div>
+  </div>
+</div>

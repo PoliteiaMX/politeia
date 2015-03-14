@@ -1,0 +1,86 @@
+@import 'theme';
+
+$watchmen-fg: #fef504;
+$watchmen-bg: black;
+
+body#index-state {
+  .logo-wrapper {
+    display: inline-block;
+    width: 196px;
+    height: 196px;
+    border: 1px solid $watchmen-fg;
+    border-radius: 50%;
+    text-align: center;
+
+    img {
+      width: 108px;
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  }
+
+  .menu-entry {
+    background-size: cover;
+    background-position: center center;
+
+    .overlay {
+      background: rgba(0, 0, 0, 0.8);
+      padding: 48px 0;
+
+      .menu-link {
+        display: block;
+
+        &, &:visited {
+          color: white;
+        }
+
+        h2 {
+          margin-top: 0;
+        }
+      }
+    }
+
+    .credits-link {
+      float: right;
+
+      &, &:visited {
+        color: white;
+      }
+    }
+  }
+
+  .jumbotron {
+    color: $watchmen-fg;
+    background-color: $watchmen-bg;
+    padding: 148px 0;
+    margin-bottom: 0;
+
+    h1, h2 {
+      font-family: 'Open Sans Condensed';
+      text-transform: uppercase;
+      letter-spacing: -2px;
+    }
+
+    h1 {
+      font-size: 72px;
+    }
+
+    h2 {
+      font-size: 48px;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .jumbotron {
+      text-align: center;
+      padding: 96px 0;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .logo {
+      text-align: right;
+    }
+  }
+}

@@ -16,7 +16,14 @@ angular
     'angulartics.google.analytics'
   ])
   .config(function ($stateProvider, $urlRouterProvider) {
+    $urlRouterProvider.otherwise('/');
+
     $stateProvider
+      .state('index', {
+        url: '/',
+        templateUrl: 'views/index.html',
+        controller: 'IndexCtrl'
+      })
       .state('appLayout', {
         abstract: true,
         templateUrl: 'views/app-layout.html'
