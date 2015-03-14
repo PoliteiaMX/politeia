@@ -23,8 +23,9 @@
         <p>{{ section.description }}</p>
       </a>
 
-      <a ng-href="{{ section.cover.sourceUrl }}" target="_blank" class="credits-link"
-        title="{{ section.cover.author }} @ {{ section.cover.site }}"><i class="fa fa-image"></i></a>
+      <a ng-href="{{ section.cover.sourceUrl }}" target="_blank" class="credits-link" data-toggle="tooltip"
+        data-placement="left" title="{{ section.cover.author }} @ {{ section.cover.site }}">
+        <i class="fa fa-image"></i></a>
     </div>
   </div>
 </div>

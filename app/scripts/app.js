@@ -65,3 +65,10 @@ angular
         controller: 'OfficialCtrl'
       });
   });
+
+// TODO(thewarpaint): Substitute this with an angular tooltip directive
+$(function () {
+  $('body').tooltip({
+    selector: '[data-toggle="tooltip"]'
+  });
+});
