@@ -10,7 +10,6 @@
  */
 angular
   .module('politeiaApp', [
-    'ngAnimate',
     'ui.router',
     'angularUtils.directives.dirDisqus',
     'angulartics',
