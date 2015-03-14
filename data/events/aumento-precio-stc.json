@@ -2,7 +2,12 @@
   "id": "aumento-precio-stc",
   "title": "Aumento al costo del boleto del STC",
   "summary": "En diciembre de 2013 el precio del boleto del STC Metro aumentó de $3 a $5, un incremento del 66%.",
-  "photoUrl": "http://1.bp.blogspot.com/-VhVG7hsmU4E/T4pdshVW9XI/AAAAAAAAAEQ/1iQtVJvuzYQ/s400/metro%2Bactual.jpg",
+  "cover": {
+    "url": "http://i.imgur.com/HWWefLX.jpg",
+    "author": "Eneas De Troya",
+    "site": "Flickr",
+    "sourceUrl": "https://www.flickr.com/photos/eneas/4451588252"
+  },
   "officials": [
     {
       "id": "miguel-angel-mancera",
@@ -15,7 +20,6 @@
       "avatarUrl": "http://www.metro.df.gob.mx/imagenes/organismo/directores/dgortega.jpg",
       "name": "Joel Ortega Cuevas",
       "position": "Director General del Sistema de Transporte Colectivo"
-
     }
   ],
   "commitments": [
@@ -35,7 +39,36 @@
       "title": "Renovación integral de la línea 1 y renovación de las estaciones",
       "deadline": null,
       "description": "El proyecto contempla cuatro etapas: diagnóstico completo de los sistemas existentes; diagnóstico completo de las edificaciones y proyecto de remodelación de las estaciones; proyecto ejecutivo de modernización de los sistemas; y migración y modernización de las estaciones. Dentro de los alcances del proyecto se tiene considerado realizar los estudios operativos para la modificación de la estación terminal Observatorio para permitir una operación más eficiente, reduciendo el intervalo del despacho de los trenes y en la dosificación de los usuarios en forma segura.",
-      "status": "unknown"
+      "status": "unknown",
+      "gallery": [
+        {
+          "id": "1a",
+          "type": "image",
+          "url": "http://www.metro.df.gob.mx/comunicados/fotos/Revolucion11.JPG",
+          "title": "Metro Revolución",
+          "description": "La estación Revolución de la línea 2 del STC ha sido renovada en su totalidad.",
+          "isPositive": true,
+          "source": "3"
+        },
+        {
+          "id": "3c",
+          "type": "image",
+          "url": "http://www.metro.df.gob.mx/comunicados/fotos/Revolucion3.JPG",
+          "title": "Metro Revolución",
+          "description": "La estación Revolución de la línea 2 del STC ha sido renovada en su totalidad.",
+          "isPositive": false,
+          "source": "5"
+        },
+        {
+          "id": "2b",
+          "type": "image",
+          "url": "http://www.metro.df.gob.mx/comunicados/fotos/Revolucion55.JPG",
+          "title": "Metro Revolución",
+          "description": "La estación Revolución de la línea 2 del STC ha sido renovada en su totalidad.",
+          "isPositive": true,
+          "source": "4"
+        }
+      ]
     },
     {
       "title": "Mantenimiento mayor a los 45 trenes de la línea 2",
@@ -102,16 +135,34 @@
   ],
   "sources": {
     "1": {
+      "site": "Scribd",
       "title": "11 compromisos Metro",
-      "source": "Scribd",
       "url": "http://www.scribd.com/doc/252356717/11-compromisos-Metro",
       "publicationDate": "2015-01-12 00:00"
     },
     "2": {
+      "site": "Milenio.com",
       "title": "Presentan avances por aumento de tarifa en el Metro",
-      "source": "Milenio.com",
       "url": "http://www.milenio.com/df/metro_avances-aumeto_del_boleto_linea_12-linea_12_0_377962382.html",
       "publicationDate": "2014-09-23 13:46"
+    },
+    "3": {
+      "site": "Sistema de Transporte Colectivo",
+      "title": "Comunicado de Prensa STC/008/2015",
+      "url": "http://www.metro.df.gob.mx/comunicados2/detalleComunicados2.html?id_comunicado=1104",
+      "publicationDate": null
+    },
+    "4": {
+      "site": "Sistema de Transporte Colectivo",
+      "title": "Comunicado de Prensa STC/008/2015",
+      "url": "http://www.metro.df.gob.mx/comunicados2/detalleImagen3.html?id_comunicado=1104",
+      "publicationDate": null
+    },
+    "5": {
+      "site": "Sistema de Transporte Colectivo",
+      "title": "Comunicado de Prensa STC/008/2015",
+      "url": "http://www.metro.df.gob.mx/comunicados2/detalleImagen2.html?id_comunicado=1104",
+      "publicationDate": null
     }
   }
 }
